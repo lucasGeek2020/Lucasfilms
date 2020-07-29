@@ -5,12 +5,15 @@ const Button = styled(Link)`
   color: var(--black);
   box-sizing: border-box;
   cursor: pointer;
-  padding: 16px 24px;
+  padding-left:16px;
+  padding-right:16px;
+  height:36px;
+  line-height:36px;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   outline: none;
-  border-radius: 5px;
+  border-radius: 4px;
   text-decoration: none;
   display: inline-block;
   transition: opacity .3s;
