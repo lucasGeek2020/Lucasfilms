@@ -22,11 +22,11 @@ export default function BannerMain({
     <BannerMainContainer backgroundImage={bgUrl}>
       <ContentAreaContainer>
         <ContentAreaContainer.Item>
-          <ContentAreaContainer.Title>
+          <ContentAreaContainer.Title className="h2">
             {videoTitle}
           </ContentAreaContainer.Title>
 
-          <ContentAreaContainer.Description>
+          <ContentAreaContainer.Description className="h6">
             {videoDescription}
           </ContentAreaContainer.Description>
         </ContentAreaContainer.Item>

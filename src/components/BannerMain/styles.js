@@ -2,8 +2,8 @@ import styled from 'styled-components';
 
 export const ContentAreaContainer = styled.section`
   
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: calc((100% - 48px)/12);
+  margin-right: calc((100% - 48px)/12);
   height: 100vh;
   display: flex;
   align-items: center;
@@ -19,6 +19,7 @@ export const ContentAreaContainer = styled.section`
 ContentAreaContainer.Item = styled.div`
   width: 50%;
   display: inline-block;
+  padding-left:24px;
   margin-bottom: 50px;
   @media (max-width: 800px) {
     width: 100%;
@@ -26,11 +27,11 @@ ContentAreaContainer.Item = styled.div`
 `;
 
 ContentAreaContainer.Category = styled.h1`
-  font-family: Roboto, sans-serif;
+  
   font-style: normal;
-  font-weight: normal;
-  font-size: 60px;
-  line-height: 70px;
+  
+  
+  
   display: flex;
   align-items: center;
   text-align: center;
@@ -47,6 +48,8 @@ ContentAreaContainer.Category = styled.h1`
 `;
 
 ContentAreaContainer.Description = styled.p`
+  line-height:150%;
+  width:calc(((100vw - 48px) /12)*4);
   @media (max-width: 800px) {
     display: none;
   }
@@ -54,9 +57,9 @@ ContentAreaContainer.Description = styled.p`
 
 ContentAreaContainer.Title = styled.h2`
   font-style: normal;
-  font-weight: 300;
-  font-size: 40px;
-  line-height: 1;
+  
+  
+  
   margin-top: 0;
   margin-bottom: 32px;
 

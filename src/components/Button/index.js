@@ -13,15 +13,17 @@ const Button = styled(Link)`
   font-weight: 700;
   font-size: 16px;
   outline: none;
-  border-radius: 4px;
+  border-radius:4px;
   text-decoration: none;
   display: inline-block;
   transition: opacity .3s;
-  background: var(--white);
+  background: var(--primary);
 
  &:hover,
 &:focus {
-  opacity: .5;
+  
+  background:#E3FD9F;
+  box-shadow: 0px,4px, 5px,rgba(0,0,0,0.14);
 }
 
 @media (max-width: 800px) {

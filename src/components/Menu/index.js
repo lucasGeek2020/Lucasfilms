@@ -12,7 +12,7 @@ function Menu(){
                 <img className="Logo" src={Logo} alt="Luscaflix Logo"/>
             </Link>
 
-            <Button as={Link} to="/cadastro/video">
+            <Button className="btn" as={Link} to="/cadastro/video">
                 Novo Video
             </Button>
         </nav>
